@@ -1,0 +1,977 @@
+{
+  "ok": true,
+  "frames_root": "pipeline/frames (not included)",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/idle/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9821,
+          "bbox": [
+            60,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 44
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/idle/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9926,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 40
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/idle/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9826,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 45
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/idle/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9858,
+          "bbox": [
+            60,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 53
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/idle/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9895,
+          "bbox": [
+            60,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 60
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/idle/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9793,
+          "bbox": [
+            60,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 29
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/running-right/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11888,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 253
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/running-right/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11396,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 217
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/running-right/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11711,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 246
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/running-right/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11894,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 237
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/running-right/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12178,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 243
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/running-right/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12093,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 265
+        },
+        {
+          "index": 6,
+          "file": "pipeline/frames/running-right/06.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11528,
+          "bbox": [
+            44,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 258
+        },
+        {
+          "index": 7,
+          "file": "pipeline/frames/running-right/07.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12168,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 256
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/running-left/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12442,
+          "bbox": [
+            39,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 256
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/running-left/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11257,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/running-left/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12362,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 225
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/running-left/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13102,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 241
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/running-left/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11796,
+          "bbox": [
+            41,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 228
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/running-left/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12917,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 213
+        },
+        {
+          "index": 6,
+          "file": "pipeline/frames/running-left/06.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11732,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        },
+        {
+          "index": 7,
+          "file": "pipeline/frames/running-left/07.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11738,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 218
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/waving/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10073,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 42
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/waving/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10137,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 42
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/waving/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9983,
+          "bbox": [
+            59,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 30
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/waving/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10053,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 37
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/jumping/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7243,
+          "bbox": [
+            61,
+            27,
+            130,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 23
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/jumping/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6551,
+          "bbox": [
+            60,
+            11,
+            131,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 26
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/jumping/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6998,
+          "bbox": [
+            60,
+            5,
+            131,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 27
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/jumping/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6601,
+          "bbox": [
+            60,
+            11,
+            131,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 31
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/jumping/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7245,
+          "bbox": [
+            61,
+            27,
+            130,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 21
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/failed/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9993,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 57
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/failed/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10021,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/failed/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9763,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/failed/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9808,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/failed/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9789,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 38
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/failed/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10005,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 43
+        },
+        {
+          "index": 6,
+          "file": "pipeline/frames/failed/06.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10007,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 53
+        },
+        {
+          "index": 7,
+          "file": "pipeline/frames/failed/07.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10021,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 37
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/waiting/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9163,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 27
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/waiting/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9192,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 22
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/waiting/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9223,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/waiting/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9695,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 30
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/waiting/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9566,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/waiting/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9183,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 18
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/running/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9652,
+          "bbox": [
+            55,
+            5,
+            136,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/running/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9620,
+          "bbox": [
+            58,
+            5,
+            134,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 48
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/running/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9584,
+          "bbox": [
+            58,
+            5,
+            134,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 56
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/running/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9621,
+          "bbox": [
+            57,
+            5,
+            135,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 49
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/running/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9701,
+          "bbox": [
+            57,
+            5,
+            134,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/running/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9574,
+          "bbox": [
+            58,
+            5,
+            134,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 43
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "pipeline/frames/review/00.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9812,
+          "bbox": [
+            60,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 32
+        },
+        {
+          "index": 1,
+          "file": "pipeline/frames/review/01.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9855,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 33
+        },
+        {
+          "index": 2,
+          "file": "pipeline/frames/review/02.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9729,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 30
+        },
+        {
+          "index": 3,
+          "file": "pipeline/frames/review/03.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9902,
+          "bbox": [
+            59,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 34
+        },
+        {
+          "index": 4,
+          "file": "pipeline/frames/review/04.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9803,
+          "bbox": [
+            59,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 29
+        },
+        {
+          "index": 5,
+          "file": "pipeline/frames/review/05.png (not included)",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9968,
+          "bbox": [
+            60,
+            5,
+            132,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 31
+        }
+      ]
+    }
+  ]
+}

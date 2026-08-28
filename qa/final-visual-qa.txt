@@ -1,0 +1,6 @@
+visual_qa=pass
+qa_note=Validators and despill pass; Violet’s identity, costume, restrained pixel style, scale, baseline, and distinct prop-free actions remain consistent, with opposing alternating gaits and a clear prepare/rise/apex/descent/land jump.
+direction_semantics=000 up pass—centered raised gaze; 022.5 up-right warning—right cue subtle but coherent toward 045; 045 up-right pass—both axes clear; 067.5 up-right pass—strong right turn with raised gaze; 090 right pass—unmistakable cardinal; 112.5 down-right pass—right yaw and lowered gaze; 135 down-right pass—both axes clear; 157.5 down-right warning—residual right cue subtle but coherent toward 180; 180 down pass—unmistakable cardinal; 202.5 down-left warning—left cue subtle but coherent toward 225; 225 down-left pass—both axes clear; 247.5 down-left pass—strong left turn with lowered gaze; 270 left pass—unmistakable cardinal; 292.5 up-left pass—left yaw and raised gaze; 315 up-left pass—both axes clear; 337.5 up-left warning—residual left cue subtle but coherent toward 000
+review_warnings=Accepted subtle horizontal cues at 022.5, 157.5, 202.5, and 337.5 in ordered-loop context; accepted 157.5->180 and 337.5->000 metric outliers because no visible snap or pop; stable-slots jumping is clear and unclipped.
+repair_rows=none
+repair_notes=none

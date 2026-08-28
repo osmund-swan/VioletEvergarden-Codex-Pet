@@ -1,0 +1,3 @@
+8cb374e9f7322bd1839d8cc2a13dde9102abb59107a4febbc710bd43dbfc1c90  pet.json
+f2061ce99ce10f8585cf7d90607de5075286515f543cab975d3db5e293f3bd14  spritesheet.webp
+f00c4655b5383dacf2c2be6256322f10ec08c2dfb2cae9ebcca8903ba570a050  extras/standard-8x9/spritesheet.webp
